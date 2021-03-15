@@ -1,0 +1,51 @@
+.article-view {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    align-items: center;
+    margin-left: 5%;
+}
+
+.article-options {
+    align-items: center;
+}
+
+.article-search {
+    width: 75%;
+}
+
+.article-search input {
+    width: 100%;
+    color: tomato;
+    font-size: large;
+}
+
+.article-new-article {
+    margin-left: 2vw;
+    width: 25%;
+    background-color: rgb(255, 99, 71);
+    border: 1px solid tomato;
+    font-size: medium;
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+    outline: none;
+    color: rgb(238, 227, 227);
+}
+
+.article-new-article:hover {
+    background-color: rgba(255, 99, 71, 0.7);
+}
+
+.article-new-article:focus {
+    background-color: rgba(228, 67, 39, 0.7);
+    border: 1px solid black;
+}
+
+.article-options {
+    padding-bottom: 4vh;
+    padding-top: 4vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    width: 70%;
+}
