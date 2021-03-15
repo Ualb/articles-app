@@ -1,0 +1,15 @@
+input :focus {
+    outline: 0px;
+}
+
+input[type="text"],
+input[type="number"] {
+    border: none;
+    border-bottom: 1px solid brown;
+    outline: none;
+}
+
+input[type="text"]:hover,
+input[type="number"]:hover {
+    box-shadow: none;
+}
