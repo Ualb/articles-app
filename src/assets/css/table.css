@@ -1,0 +1,59 @@
+table {
+    width: 85%;
+    border-bottom: 1px solid #999;
+    text-align: center;
+    border-collapse: collapse;
+    margin: 0 0 1em 0;
+    caption-side: top;
+    background: rgba(255, 235, 205, 0.8);
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana,
+        sans-serif;
+}
+
+td {
+    padding: 0.3em;
+    color: rgba(0, 0, 0, 0.8);
+}
+
+td .edit {
+    background: transparent;
+    border: none;
+    color: green;
+    text-decoration: underline;
+    cursor: pointer;
+    font-weight: 750;
+    outline: none;
+}
+
+td .deleted {
+    background: transparent;
+    border: none;
+    color: rgba(255, 0, 0, 0.7);
+    text-decoration: underline;
+    cursor: pointer;
+    font-weight: 750;
+    outline: none;
+}
+
+th {
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+}
+
+tr:nth-child(2n) {
+    background: white;
+}
+
+thead {
+    padding-left: 2vw;
+    padding-right: 2vw;
+    color: rgb(238, 227, 227);
+    background-color: tomato;
+    font-weight: 800;
+    font-family: monospace;
+    font-size: larger;
+}
+
+tfoot {
+    background: rgba(212, 195, 168, 0.8);
+}
